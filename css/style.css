@@ -8,6 +8,7 @@ body footer {
 }
 main a {
     color: #851944;
+    text-decoration: none;
 }
 main h1 {
     font-size: 60px;
@@ -35,7 +36,9 @@ aside {
 aside a {
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
+    text-decoration: none;
 }
 nav a {
     color: #F2FFFC;
+    text-decoration: none;
 }
