@@ -7,7 +7,7 @@ body footer {
     background-color: #000;
     color: #F2FFFC;
 }
-main div {
+.centralizar-texto {
     width: 750px;
     margin: auto;
     padding: 30px 0;
@@ -16,7 +16,7 @@ main a {
     color: #851944;
     text-decoration: none;
 }
-main h1 {
+.titulo-principal {
     font-size: 60px;
     background-color: #851944;
     color: #F2FFFC;
@@ -42,7 +42,7 @@ strong {
 em {
     font-style: italic;
 }
-main blockquote {
+.citacao-jobs {
     background-color: #D9E5E3;
     padding: 16px;
     border: 10px #C2CCCA solid;
@@ -81,4 +81,12 @@ article {
     padding-bottom: 30px;
     border-bottom: 1px solid #ccc;
     margin-bottom: 20px;
+}
+.leia-mais {
+    font-size: 24px;
+    margin: 16px;
+    padding: 8px;
+    text-align: center;
+    background-color: #E6E7E8;
+    display: block;
 }
