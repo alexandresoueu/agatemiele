@@ -9,7 +9,7 @@ body footer {
 }
 main {
     float: left;
-    width: 85%;
+    width: 86%;
 }
 .centralizar-texto {
     width: 750px;
@@ -49,25 +49,6 @@ strong {
 em {
     font-style: italic;
 }
-.citacao-jobs {
-    background-color: #D9E5E3;
-    padding: 16px;
-    border: 10px #C2CCCA solid;
-    width: 250px;
-    margin: 20px 40px;
-}
-.citacao-right {
-    float: right;
-}
-.citacao-left{
-    float: left;
-
-}
-.citacao-author {
-    float:right;
-    font-style: italic;
-    display: block;
-}
 .navegacao-site {
     background-color: #3C1D3D;
     color: #F2FFFC;
@@ -75,7 +56,7 @@ em {
     text-align: center;
     float: right;
     clear: right;
-    width: 15%;
+    width: 14%;
     position: relative;
     top:190px;
 }
@@ -137,12 +118,4 @@ article {
     padding-bottom: 30px;
     border-bottom: 1px solid #ccc;
     margin-bottom: 20px;
-}
-.leia-mais {
-    font-size: 24px;
-    margin: 16px;
-    padding: 8px;
-    text-align: center;
-    background-color: #E6E7E8;
-    display: block;
 }
