@@ -50,11 +50,13 @@ main blockquote {
     margin: 20px 40px;
 }
 
-aside {
+.navegacao-site {
     background-color: #3C1D3D;
     color: #F2FFFC;
+    padding: 20px;
+    text-align: center;
 }
-aside li {
+.icones-sociais li {
     display: inline-block;
 }
 aside a {
@@ -70,4 +72,13 @@ nav a {
     color: #F2FFFC;
     text-decoration: none;
 }
-
+#rodape-pagina  {
+    background-color: #000;
+    color: #F2FFFC;
+    padding: 20px;
+}
+article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
