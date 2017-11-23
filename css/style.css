@@ -26,6 +26,7 @@ main a {
     margin: 0;
     box-sizing: border-box;
     border-bottom: 10px  #000 solid;
+    text-transform: uppercase;
 }
 h2 {
     font-size: 30px;
@@ -55,9 +56,25 @@ em {
     color: #F2FFFC;
     padding: 20px;
     text-align: center;
+    text-transform: lowercase;
 }
 .icones-sociais li {
     display: inline-block;
+}
+.icones-sociais a {
+    width: 40px;
+    height: 40px;
+    display: block;
+    font-size: 0;
+}
+.icon-linkedin {
+    background-image: url("/img/linkedin.png");
+}
+.icon-twitter {
+    background-image: url("/img/twitter.png");
+}
+.icon-github {
+    background-image: url("/img/github.png");
 }
 aside a {
     color: inherit;
