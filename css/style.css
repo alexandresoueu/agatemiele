@@ -14,7 +14,8 @@ main {
 .centralizar-texto {
     width: 750px;
     margin: auto;
-    padding: 30px 0;
+    padding: 40px 0;
+    padding-bottom: 80px;
 }
 main a {
     color: #851944;
@@ -74,13 +75,20 @@ em {
     text-align: center;
     float: right;
     clear: right;
+    width: 15%;
+    position: relative;
+    top:190px;
 }
 .img-perfil, .navegacao-site {
     float: right;
     box-sizing: border-box;
-    width: 15%;
     border-left: solid 10px black;
     border-bottom: solid 10px black;
+}
+.img-perfil {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 .icones-sociais li {
     display: inline-block;
@@ -117,10 +125,13 @@ nav li {
     text-transform: lowercase;
 }
 #rodape-pagina  {
+    width: 100%;
     background-color: #000;
     color: #F2FFFC;
-    padding: 20px;
+    padding:15px;
     clear: both;
+    position: fixed;
+    bottom: 0;
 }
 article {
     padding-bottom: 30px;
