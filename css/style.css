@@ -7,6 +7,10 @@ body footer {
     background-color: #000;
     color: #F2FFFC;
 }
+main {
+    float: left;
+    width: 85%;
+}
 .centralizar-texto {
     width: 750px;
     margin: auto;
@@ -31,6 +35,7 @@ main a {
 h2 {
     font-size: 30px;
     font-family: "Open Sans", sans-serif;
+    clear: both;
 }
 p{
     text-align: justify;
@@ -50,13 +55,32 @@ em {
     width: 250px;
     margin: 20px 40px;
 }
+.citacao-right {
+    float: right;
+}
+.citacao-left{
+    float: left;
 
+}
+.citacao-author {
+    float:right;
+    font-style: italic;
+    display: block;
+}
 .navegacao-site {
     background-color: #3C1D3D;
     color: #F2FFFC;
     padding: 20px;
     text-align: center;
-    text-transform: lowercase;
+    float: right;
+    clear: right;
+}
+.img-perfil, .navegacao-site {
+    float: right;
+    box-sizing: border-box;
+    width: 15%;
+    border-left: solid 10px black;
+    border-bottom: solid 10px black;
 }
 .icones-sociais li {
     display: inline-block;
@@ -89,10 +113,14 @@ nav a {
     color: #F2FFFC;
     text-decoration: none;
 }
+nav li {
+    text-transform: lowercase;
+}
 #rodape-pagina  {
     background-color: #000;
     color: #F2FFFC;
     padding: 20px;
+    clear: both;
 }
 article {
     padding-bottom: 30px;
