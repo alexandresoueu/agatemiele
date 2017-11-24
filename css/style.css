@@ -22,15 +22,15 @@ main a {
     text-decoration: none;
 }
 .titulo-principal {
-    font-size: 60px;
+    font-size: 300%;
     background-color: #851944;
     color: #F2FFFC;
     text-align: center;
     font-family: "Open Sans", sans-serif;
-    padding: 20px;
+    padding: 2rem;
     margin: 0;
     box-sizing: border-box;
-    border-bottom: 10px  #000 solid;
+    border-bottom: .5rem  #000 solid;
     text-transform: uppercase;
 }
 h2 {
