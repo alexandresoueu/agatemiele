@@ -12,6 +12,7 @@ header {
 }
 .foto-home {
     height: 200px;
+    border-radius: 10% 50% / 50% 10%;
 }
 .saudacao p {
     font-size: 1.5em;
@@ -44,6 +45,7 @@ header {
     width: 40ch;
     display: block;
     text-align: center;
+    depth: 10px;
 }
 .secao-inicio {
     padding: 2em;
